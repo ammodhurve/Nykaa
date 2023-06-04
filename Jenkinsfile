@@ -13,7 +13,7 @@ pipeline {
                 Stages('Deployment'){
                   Steps {
 
-                        sh 'cp target/Nykaa.war /home/amrita/Documents/devops-tools/apache-tomcat-9.0.73/webapps' 
+                        sh 'cp target/Nykaa.war /home/amrita/Documents/devops-tools/apache-tomcat-9.0.73/webapps'
        }
 }}}
-  
+
